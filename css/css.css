@@ -1,0 +1,84 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+header{
+    height: 40px;
+    width: 100%;
+    background-color:#af2024;
+}
+.wallp{
+    position: relative;
+    z-index: 1;
+    width: 100vw;
+    height: 100vh;
+    background: url("../images/img2.png") no-repeat;
+    background-size: cover;
+}
+.logo{
+    position: absolute;
+    z-index: 2;
+    top: 55px;
+    left: 62px;
+}
+.social{
+    position:fixed;
+    z-index: 2;
+    right: 1px;
+    top: 260px;
+}
+.social a {
+    padding-top: 15px;
+    margin-left: 16px;
+    box-sizing: border-box;
+    display: table;
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    line-height: 20px;
+    background-color: #850409;
+}
+.social a i{
+    color: white;
+    font-size: 20px;
+}
+.container{
+    position: absolute;
+    z-index: 2;
+    height:745px;
+    max-width:712px;
+    top: 178px;
+    left: 405px;
+    align-items: center;
+    background-color: white;
+}
+.title{
+    padding-top: 27px;
+    padding-bottom: 27px;
+    max-width:712px;
+    width: 712px;
+    color: white;
+    background-color: #af2024;
+}
+.title h1{
+    font-size: 20px;
+    margin-left: 18px;
+}
+.video{
+    padding-top: 60px;
+    margin: auto;
+    width: 560px;
+    height: 360px;
+}
+.text{
+    max-width: 560px;
+    font-size:12px;
+    padding-left:75px;
+    text-align: left;
+    padding-top: 30px;
+    color: #850409;
+}
+footer{
+    height: 450px;
+    background-color: black;
+}
